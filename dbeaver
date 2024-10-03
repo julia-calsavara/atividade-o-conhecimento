@@ -1,0 +1,11 @@
+create database cadastro_consulta;
+
+
+create table cadastro_consulta.alunos(
+id int primary key auto_increment,
+nome varchar(50),
+idade int(2),
+email varchar(255),
+curso varchar(20)
+);
+/* fim da etapa 2 01/10/24 às 9:07*/
